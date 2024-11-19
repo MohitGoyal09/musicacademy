@@ -1,11 +1,10 @@
- {
+{
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "warn", // Warn for unused variables
-    "@typescript-eslint/no-explicit-any": "warn", // Warn for usage of `any`
-    "react-hooks/exhaustive-deps": "warn", // Warn for missing dependencies
-    "prefer-const": "warn", // Warn for using `let` instead of `const`
-    "no-var": "warn" // Warn for using `var`
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "prefer-const": "warn",
+    "no-var": "warn"
   }
 }
-
