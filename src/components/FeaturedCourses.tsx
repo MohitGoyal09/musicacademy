@@ -13,9 +13,10 @@ interface Course {
   price: number;
   instructor: string;
   isFeatured: boolean;
-  difficulty?: "Beginner" | "Intermediate" | "Advanced";
+  difficulty?: string; // Allow any string for difficulty
   totalLessons?: number;
 }
+
 
 function FeaturedCourses() {
   const featuredCourses = courseData.courses.filter(
